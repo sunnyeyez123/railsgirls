@@ -13,5 +13,11 @@
  */
 body { padding-top: 100px; }
 footer { margin-top: 100px; }
-table, td, th { vertical-align: middle !important; border: none !important; }
-th { border-bottom: 1px solid #DDD !important; }
+.navbar-inner{
+	background-color: #FF0000; 
+	 background-image: -moz-linear-gradient(top, #FF3333, #222222);
+  background-image: -ms-linear-gradient(top, #FF3333, #222222);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FF3333), to(#222222));
+  background-image: -webkit-linear-gradient(top, #FF3333, #222222);
+  background-image: -o-linear-gradient(top, #FF3333, #222222);
+  background-image: linear-gradient(top, #FF3333, #222222);}
